@@ -3,7 +3,11 @@
 
 
     .navbar__menu {
-      display: flex;
+    display: flex;
+    padding-right: 20px;
+    }
+    .navbar__logo {
+      padding-left: 16px;
     }
   
     .navbar__links {
@@ -13,12 +17,13 @@
       flex-direction: column;
       background: rgba(0, 0, 0, 0.97);
       font-size: 30px;
-      margin: 0 -20px;
+      margin: 0 0px;
       z-index: 10;
       transform: translateX(100%);
       opacity: 0;
       transition: all 0.5s;
-    }
+      padding-right: 0px;
+  }
   
     .visible {
       display: flex;
@@ -33,8 +38,8 @@
     }
 
     .doc_visualizador {
-    width: 410px;
-    height: 890px;
+    width: 350px;
+    height: 490px;
     }
   
     section {
@@ -42,19 +47,19 @@
     }
 
     .section_intro {
-        padding: 50px 0px 50px 0px    
+        padding: 50px 10px 50px 10px    
     }
     
     .section_obj {
-        padding: 50px 0px 50px 0px    
+        padding: 50px 10px 50px 10px    
     }
     
     .section_contenido {
-        padding: 50px 0px 50px 0px    
+        padding: 50px 10px 50px 10px    
     }
     
     .section_concl {
-        padding: 50px 0px 50px 0px    
+      padding: 0px 10px 340px 10px;   
     }
   
     .home {
@@ -119,8 +124,10 @@
   
     .services__grid,
     .portfolio__grid {
-      grid-template-columns: 1fr 1fr;
+      /* grid-template-columns: 1fr 1fr; */
       gap: 5px;
+      display: list-item;
+  
     }
   }
   
@@ -133,9 +140,18 @@
       background-position: center;
     }
 
+    .navbar__menu {
+      display: flex;
+      padding-right: 20px;
+      }
+
+    .navbar__logo {
+      padding-left: 16px;
+  }
+
     .doc_visualizador {
-        width: 410px;
-        height: 890px;
+      width: 350px;
+      height: 490px;
     }
   
     section {
@@ -143,19 +159,19 @@
     }
 
     .section_intro {
-        padding: 20px 0px 20px 0px;
+        padding: 20px 10px 20px 10px;
     }
     
     .section_obj {
-        padding: 20px 0px 20px 0px;
+        padding: 20px 10px 20px 10px;
     }
     
     .section_contenido {
-        padding: 20px 0px 20px 0px;
+        padding: 20px 10px 20px 10px;
     }
     
     .section_concl {
-        padding: 20px 0px 20px 0px;
+      padding: 0px 10px 340px 10px;
     }
   
     .home__profile {

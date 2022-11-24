@@ -104,6 +104,7 @@ section {
 .navbar__logo {
   display: flex;
   align-items: center;
+  padding-left: 10px;
 }
 
 .navbar__title {
@@ -127,8 +128,8 @@ section {
   display: flex;
   height: 100%;
   align-items: center;
+  padding-right: 50px;
 }
-
 .navbar__link {
   padding-left: 20px;
   font-size: 18px;
